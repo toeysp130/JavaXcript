@@ -9,3 +9,4 @@ const cat = {
 console.log(cat.whatName());
 cat.name = "Nezzar";
 console.log(cat.whatName());
+
