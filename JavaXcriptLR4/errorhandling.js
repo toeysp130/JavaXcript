@@ -9,7 +9,9 @@ function logError(theException) {
 console.log("\n********Try..Chat*******\n");
 
 try {
-    criticalCode();
+    //criticalCode();
+    let x = 3/0;
+    console.log(x);
 } catch (ex) {
     console.log("Got an error");
     logError(ex);
