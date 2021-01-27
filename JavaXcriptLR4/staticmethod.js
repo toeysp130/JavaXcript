@@ -14,5 +14,6 @@ class Dog {
 
 const myDog = new Dog("Buster");
 myDog.introduce();
+//myDog.bark(); เรียกใช้ผ่านคลาสเท่านั้น
 
 Dog.bark();
