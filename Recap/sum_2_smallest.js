@@ -18,10 +18,6 @@ function sumTwoSmallestNums (arr_num){
     }
     */
    arr_num.sort((a,b)=>a-b) 
-    /*if(arr_num[0] > 0){
-        return arr_num[0] + arr_num[1]
-    }*/
-    //return arr_num
     for(let i = 0 ; i < arr_num.length ; i++){
         if(arr_num[i] > 0){
             return (arr_num[i] + arr_num[i+1])
