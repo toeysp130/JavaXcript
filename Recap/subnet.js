@@ -1,5 +1,5 @@
 function isValidIP(str_IP){
-    let arr_IP = Array.from(str_IP)
+    let arr_IP = str_IP.split('.')
     //console.log(arr_IP)
     if(arr_IP.length != 4){
         return false
@@ -10,7 +10,7 @@ function isValidIP(str_IP){
         }
     }
 
-    for(let j = 0 ; i < arr_IP.length ; j++){
+    for(let j = 0 ; j < arr_IP.length ; j++){
         if(parseInt(arr_IP[j]) > 255 ){
             return false
         }
