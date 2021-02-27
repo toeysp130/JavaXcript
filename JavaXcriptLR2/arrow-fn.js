@@ -17,3 +17,5 @@ const sum = (firstParam, secondParam) => {
   checkWeight(25); // Prints: Baggage weight : 25 kilograms.
   
   // Concise arrow functions
+  const multiply = (a,b) => a*b;
+  console.log(multiply(2,30));//prints :60

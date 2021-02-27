@@ -1,6 +1,7 @@
 function isValidIP(str_IP){
     let arr_IP = str_IP.split('.')
     //console.log(arr_IP)
+    
     if(arr_IP.length != 4){
         return false
     }
@@ -20,7 +21,7 @@ function isValidIP(str_IP){
 }
 
 console.log(isValidIP('1.2.3.4'))
-console.log(isValidIP('1.2.3'))
+console.log(isValidIP('1.2.3.9.0.5'))
 console.log(isValidIP('1.2.3.4.5'))
 console.log(isValidIP('123.45.67.89'))
 console.log(isValidIP('123.456.78.90'))
