@@ -1,4 +1,5 @@
-function removeDups(arr_data){  
+function removeDups(arr_data){ 
+    /* 
     let count = 0
     for(let i = 0 ; i < arr_data.length ; i++){
         for(let j = i+1; j < arr_data.length ; j++){
@@ -11,7 +12,10 @@ function removeDups(arr_data){
         arr_data.pop()
     }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
     return arr_data;
+    */
+   return Array.from(new Set(arr_data))
 }
+
 
 
 console.log(removeDups([1,0,1,0]));
