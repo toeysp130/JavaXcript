@@ -1,5 +1,5 @@
 function sumTwoSmallestNums (arr_num){
-    /*
+    /* วิธี menual
     for(let i = 0 ; i < arr_num.length ; i++){
         for(let j = i +1 ; j < arr_num.length ; j++){
             if(arr_num[i] > arr_num[j]){
@@ -17,12 +17,18 @@ function sumTwoSmallestNums (arr_num){
         }
     }
     */
+    //วิธีลัด****
    arr_num.sort((a,b)=>a-b) 
+   let posi_num = arr_num.filter((value)=>{return value>0})
+   return posi_num[0]+posi_num[1]
+
+   /* วิธี menual ที่สอง
     for(let i = 0 ; i < arr_num.length ; i++){
         if(arr_num[i] > 0){
             return (arr_num[i] + arr_num[i+1])
         }
     }
+    */
 
 }
 // เอาจำนวนที่น้อยสุดสองจำนวนมาบวกกัน
