@@ -1,7 +1,6 @@
 function count(num){
     let x = "dsdfggrffvbb";
 let y = x.match(/[abc]/gi);
-.replace()
 
 
     return x.filter((value)=> value >=0).length;
