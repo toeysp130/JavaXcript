@@ -1,5 +1,6 @@
 function additivePersistence(num,count=1){
     let arr_sum = num.toString().split('').map((i)=>parseInt(i));
+    console.log(arr_sum);
     let sum = arr_sum.reduce((a,b)=>a+b);
     if(sum.toString().length > 1){
         count++
@@ -8,10 +9,6 @@ function additivePersistence(num,count=1){
     else return count
 }
 
-function sortdata(arr_num){
-    return arr_num.sort((a,s)=>a-s)
-}
-console.log(additivePersistence(1679583));
-console.log(sortdata([1,6,7,9,5,8,3]));
+console.log(additivePersistence(16795356223409876543212455667788999990336577989062683n));
 
 

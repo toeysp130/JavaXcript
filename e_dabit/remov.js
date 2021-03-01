@@ -1,5 +1,5 @@
 function removeABC(str){
-    if(str.match(/[abc]/)){
+    if(str.match(/[abc]/)){   //เช็คว่าเจอตัวที่เราจะตัดไป
         for(let i = 0; i < str.length ; i++){
         str = str.replace(/[abc]/,' ')
         }
