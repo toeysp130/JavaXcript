@@ -4,3 +4,4 @@ function starRating(arr_num){
 }
 
 console.log(starRating([55,67,98,115,61]));
+console.log(starRating([4,4,2,9,1]));

@@ -3,6 +3,4 @@ function jazzify(arr){
 }
 
 console.log(jazzify(["G","F","C"]));
-console.log(jazzify(["G","F","C"]));
-console.log(jazzify(["G","F","C"]));
-//console.log(jazzify(["G","F","C"])); คือเนื้อหาที่อยู๋ในฟarr
+

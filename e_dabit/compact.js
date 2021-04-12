@@ -3,6 +3,7 @@ function compact(arr){
     for (const val of arr) {
         if(typeof val == 'number'){ //เช็คว่าเป็นเลขไหม
             res.push(val);//พอเป็นตัวเลขก็เอามาใส่ในarray
+            
         }
     }
     return res

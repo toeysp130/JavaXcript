@@ -9,6 +9,4 @@
         }
         return arr2;
     }
-    console.log(flatten([[1,2],[3,4]])); // [0,0][0,1][1,0][1,1]
-
-    
+    console.log(flatten([[1,2],[3,4]]));

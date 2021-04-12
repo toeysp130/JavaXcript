@@ -1,9 +1,7 @@
 function count(num){
     let x = "dsdfggrffvbb";
 let y = x.match(/[abc]/gi);
-
-
-    return x.filter((value)=> value >=0).length;
+    return y.filter((value)=> {value >=0}).length;
     /*
     let arr_num = Array.from(String(num))
     if(arr_num[0] == "-"){

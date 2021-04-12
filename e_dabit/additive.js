@@ -9,6 +9,6 @@ function additivePersistence(num,count=1){
     else return count
 }
 
-console.log(additivePersistence(16795356223409876543212455667788999990336577989062683n));
+console.log(additivePersistence(16795356223409888999990336577989062683n));
 
 
