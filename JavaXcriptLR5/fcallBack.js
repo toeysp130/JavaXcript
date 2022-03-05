@@ -2,5 +2,6 @@ function callback(){
     console.log("Timeout Completed");
 
 }
-
-setTimeout(callback,3000);
+console.log('Start');
+setTimeout(callback,30000);
+console.log('End');
